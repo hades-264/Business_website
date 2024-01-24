@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_query.css">
 </head>
 
 <body>
@@ -19,10 +20,10 @@
     <nav>
         <div class="container main-nav flex">
             <a href="#" class="company-logo">
-                <img src="./images/company-logo.jpg" alt="company-logo">
+                <img src="../../images/company-logo.jpg" alt="company-logo">
             </a>
 
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
                 <ul class="flex">
                     <li><a href="#" class="hover-links">Products</a></li>
                     <li><a href="#" class="hover-links">Customer</a></li>
@@ -32,6 +33,7 @@
                     <li><a href="#" class="hover-links primary-btn">Sign up</a></li>
                 </ul>
             </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
         </div>
     </nav>
 
@@ -47,7 +49,7 @@
             </div>
 
             <div class="header-right">
-                <img src="./images/hero.jpg" alt="">
+                <img src="../../images/hero.jpg" alt="">
             </div>
         </div>
     </header>
@@ -58,13 +60,13 @@
                 make better
                 design decisions.</div>
             <div class="logos flex">
-                <img class="logo" src="./images/asset 3.png" alt="">
-                <img class="logo" src="./images/asset 4.png" alt="">
-                <img class="logo" src="./images/asset 5.png" alt="">
-                <img class="logo" src="./images/asset 6.png" alt="">
-                <img class="logo" src="./images/asset 7.png" alt="">
-                <img class="logo" src="./images/asset 8.svg" alt="">
-                <img class="logo" src="./images/asset 9.png" alt="">
+                <img class="logo" src="../../images/asset 3.png" alt="">
+                <img class="logo" src="../../images/asset 4.png" alt="">
+                <img class="logo" src="../../images/asset 5.png" alt="">
+                <img class="logo" src="../../images/asset 6.png" alt="">
+                <img class="logo" src="../../images/asset 7.png" alt="">
+                <img class="logo" src="../../images/asset 8.svg" alt="">
+                <img class="logo" src="../../images/asset 9.png" alt="">
             </div>
         </div>
     </section>
@@ -78,37 +80,37 @@
 
             <div class="features-area flex">
                 <div class="features-card flex">
-                    <img src="./images/asset 11.svg" alt="">
+                    <img src="../../images/asset 11.svg" alt="">
                     <h3>Card sorting</h3>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <a href="#" class="secondary-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="features-card flex">
-                    <img src="./images/asset 13.svg" alt="">
+                    <img src="../../images/asset 13.svg" alt="">
                     <h3>Card sorting</h3>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <a href="#" class="secondary-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="features-card flex">
-                    <img src="./images/asset 14.svg" alt="">
+                    <img src="../../images/asset 14.svg" alt="">
                     <h3>Card sorting</h3>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <a href="#" class="secondary-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="features-card flex">
-                    <img src="./images/asset 15.svg" alt="">
+                    <img src="../../images/asset 15.svg" alt="">
                     <h3>Card sorting</h3>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <a href="#" class="secondary-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="features-card flex">
-                    <img src="./images/asset 16.svg" alt="">
+                    <img src="../../images/asset 16.svg" alt="">
                     <h3>Card sorting</h3>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <a href="#" class="secondary-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="features-card flex">
-                    <img src="./images/asset 17.svg" alt="">
+                    <img src="../../images/asset 17.svg" alt="">
                     <h3>Card sorting</h3>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <a href="#" class="secondary-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
@@ -118,9 +120,9 @@
     </section>
 
     <section class="big-features-section">
-        <div class="container big-feature-container flex">
+        <div class="container flex big-feature-container">
             <div class="feature-img">
-                <img src="./images/hero1.png" alt="">
+                <img src="../../images/hero1.png" alt="">
             </div>
             <div class="feature-desc flex">
                 <h4>Effortless validation for</h4>
@@ -131,7 +133,7 @@
         </div>
     </section>
     <section class="big-features-section">
-        <div class="container big-feature-container flex">
+        <div class="container big-feature-container flex" id="second-big-feature">
             <div class="feature-desc flex">
                 <h4>Effortless validation for</h4>
                 <h3>Design professionals</h3>
@@ -139,14 +141,14 @@
                     intuitive and delightful experiences for your users.</p>
             </div>
             <div class="feature-img">
-                <img src="./images/hero2.png" alt="">
+                <img src="../../images/hero2.png" alt="">
             </div>
         </div>
     </section>
     <section class="big-features-section">
-        <div class="container big-feature-container flex">
+        <div class="container big-feature-container flex ">
             <div class="feature-img">
-                <img src="./images/hero3.png" alt="">
+                <img src="../../images/hero3.png" alt="">
             </div>
             <div class="feature-desc flex">
                 <h4>Effortless validation for</h4>
@@ -203,7 +205,7 @@
     <footer>
         <div class="container flex footer-container">
             <a href="#" class="company-logo">
-                <img src="./images/company-logo.jpg" alt="">
+                <img src="../../images/company-logo.jpg" alt="">
             </a>
 
             <div class="link-column flex">
@@ -247,6 +249,15 @@
         </div>
 
         <script src="https://kit.fontawesome.com/32ebc6ae11.js" crossorigin="anonymous"></script>
+
+        <script>
+            const toggleBtn = document.getElementById('nav-toggle');
+            const navLinks = document.getElementById('nav-links');
+
+            toggleBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        </script>
 </body>
 
 </html>
